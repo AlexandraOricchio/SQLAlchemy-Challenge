@@ -28,8 +28,8 @@ def welcome():
         f"/api/v1.0/precipitation<br/>"
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs<br/>"
-        f"/api/v1.0/start/START_DATE<br/>"
-        f"/api/v1.0/start/end/START_DATE/END_DATE"
+        f"/api/v1.0/start/START_DATE(YYYY-MM-DD)<br/>"
+        f"/api/v1.0/start/end/START_DATE(YYYY-MM-DD)/END_DATE(YYYY-MM-DD)"
     )
 
 # Precipitation Route
