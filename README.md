@@ -13,17 +13,22 @@ Designed a Flask API based on my analysis and exploration of the data. Created a
 
 ![routes](Images/routes.JPG)
 
-1. **Precipitation:** Converted my query results into a dictionary and returned the JSON representation of said dictionary.
+1. **Precipitation:** Queried precipitation values for each date. Converted my query results into a dictionary and returned the JSON representation of said dictionary.
+
 ![route1](Images/route1.JPG)
 
-2. **Stations:** Returned a JSON list of all stations within the dataset.
+2. **Stations:** Returned a JSON list of all nine stations within the dataset.
+
 ![route2](Images/route2.JPG)
 
-3. **Temperature Observations (tobs):** Queried dates and temperature observations for a year from the last data point and returned a JSON list of resulting data. 
+3. **Temperature Observations (tobs):** Queried temperature observations for a year from the last data point and returned a JSON list of resulting data. 
+
 ![route3](Images/route3.JPG)
 
 4. **Start date:** Based on the input start date, returned JSON list of minimum, maximum, and average temperature for all dates greater than or equal to start date. 
+
 ![route4](Images/route4.JPG)
 
 5. **Start and End dates:** Based on the input for start and end date, returned JSON list of minimum, maximum, and average temperature for time period. 
+
 ![route5](Images/route5.JPG)
