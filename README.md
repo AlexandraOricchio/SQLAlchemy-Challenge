@@ -5,10 +5,12 @@ It’s time for a vacation! I have planned a trip to Honolulu, Hawaii. To help p
 Used SQLAlchemy to connect to the SQLite database. Explored precipitation data and analyzed last 12 months of data. Created a plot to visualize the precipitation values over the 12-month period and retrieved a statistics summary of the data using Pandas. 
 ![precipitation](Images/precipitation_analysis.JPG)
 Explored station data and designed a query to find the most active stations. Created a histogram plot for the station with the highest number of temperature observations.
+
 ![station](Images/station_analysis.JPG)
 
 ## Climate Application:
 Designed a Flask API based on my analysis and exploration of the data. Created a home page with a list of routes available.
+
 
 1. **Precipitation:** Converted my query results into a dictionary and returned the JSON representation of said dictionary.
 2. **Stations:** Returned a JSON list of all stations within the dataset.
