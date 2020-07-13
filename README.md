@@ -8,7 +8,8 @@ Explored station data and designed a query to find the most active stations. Cre
 ![station](Images/station_analysis.JPG)
 
 ## Climate Application:
-Designed a Flask API based on my analysis and exploration of the data. Created a home page with a list of routes available. Created four routes using FLASK. 
+Designed a Flask API based on my analysis and exploration of the data. Created a home page with a list of routes available.
+
 1. **Precipitation:** Converted my query results into a dictionary and returned the JSON representation of said dictionary.
 2. **Stations:** Returned a JSON list of all stations within the dataset.
 3. **Temperature Observations (tobs):** Queried dates and temperature observations for a year from the last data point and returned a JSON list of resulting data. 
