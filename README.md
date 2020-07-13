@@ -6,3 +6,11 @@ Used SQLAlchemy to connect to the SQLite database. Explored precipitation data a
 ![precipitation](Images/precipitation_analysis.JPG)
 Explored station data and designed a query to find the most active stations. Created a histogram plot for the station with the highest number of temperature observations.
 ![station](Images/station_analysis.JPG)
+
+## Climate Application:
+Designed a Flask API based on my analysis and exploration of the data. Created a home page with a list of routes available. Created four routes using FLASK. 
+1. **Precipitation:** Converted my query results into a dictionary and returned the JSON representation of said dictionary.
+2. **Stations:** Returned a JSON list of all stations within the dataset.
+3. **Temperature Observations (tobs):** Queried dates and temperature observations for a year from the last data point and returned a JSON list of resulting data. 
+4. **Start date:** Based on the input start date, returned JSON list of minimum, maximum, and average temperature for all dates greater than or equal to start date. 
+5. **Start and End dates:** Based on the input for start and end date, returned JSON list of minimum, maximum, and average temperature for time period. 
